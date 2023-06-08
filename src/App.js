@@ -1,11 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import PageNav from './components/Navbar';
 
 function App() {
   return (
-    <div className="App">
-      <h1>ULESSON</h1>
-    </div>
+    <>
+      <PageNav />
+    </>
   );
 }
 
