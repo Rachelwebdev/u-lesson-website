@@ -2,21 +2,27 @@ import '../Navbar.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function PageNav() {
   return (
     <>
       <Navbar
+        collapseOnSelect
+        expand="lg"
         bg="dark"
         variant="dark"
       >
-        <Container className="navbar-container">
+        <Container>
           <Navbar.Brand href="#home">uLessonLogo</Navbar.Brand>
-          <Nav className="nav-links">
-            <Nav.Link href="#home">ulesson</Nav.Link>
-            <Nav.Link href="#features">ulesson</Nav.Link>
-            <Nav.Link href="#pricing">ulesson</Nav.Link>
-          </Nav>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="ms-auto">
+              <Nav.Link href="#features">ulesson</Nav.Link>
+              <Nav.Link href="#pricing">ulesson</Nav.Link>
+              <Nav.Link href="#pricing">ulesson</Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     </>
