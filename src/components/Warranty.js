@@ -25,17 +25,15 @@ function Warranty() {
 
         <div className="description">
           <h5>
-            Now you can buy a uLesson Education Tab and learning plan at a
-            uLesson Experience Centre. {'>>>'}
+            Warranty Duration: The warranty period starts from when the uLesson
+            Tab was originally purchased by the end user. {'>>>'}
           </h5>
           <p className="ulesson-benefits">
-            Warranty Duration: The warranty period starts from when the uLesson
-            Tab was originally purchased by the end user. Also the uLesson Tab
-            consists of different parts, which may be covered by different types
-            of warranty Illo quod mollitia voluptates beatae unde porro minus
-            veritatis, dicta rem provident. Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Quo eaque temporibus atque alias animi
-            blanditiis culpa ipsa quis natus magni!
+            Also the uLesson Tab consists of different parts, which may be
+            covered by different types of warranty Illo quod mollitia voluptates
+            beatae unde porro minus veritatis, dicta rem provident. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit. Quo eaque temporibus
+            atque alias animi blanditiis culpa ipsa quis natus magni!
           </p>
         </div>
       </div>
