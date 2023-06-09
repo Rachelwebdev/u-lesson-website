@@ -25,7 +25,7 @@ function EduTab() {
         <Carousel
           activeIndex={index}
           onSelect={handleSelect}
-          className="carousel-container"
+          className="carousel-container custom-carousel"
         >
           <Carousel.Item>
             <img

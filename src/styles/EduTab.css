@@ -7,7 +7,7 @@ h1 {
 }
 
 .edu-container {
-  padding-top: 2rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,18 +18,32 @@ h1 {
 
 .description {
   padding: 2rem 6rem;
-  font-size: 16px;
 }
 
 .description h5 {
   color: rgb(227, 158, 19);
+  font-size: 20px;
+  text-align: center;
 }
 
 .carousel-container {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  margin: 2rem 0 1rem 6rem;
-  background-color: rgb(230, 230, 234);
+  align-items: center;
+  
+  position: relative; */
+}
+
+.carousel-control-prev-icon {
+  position: absolute;
+  background-color: rgb(227, 158, 19);
+  left: 0;
+}
+
+.carousel-control-next-icon {
+  position: absolute;
+  background-color: rgb(227, 158, 19);
+  right: 0;
 }
 
 .ulesson-benefits {
