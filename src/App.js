@@ -8,6 +8,7 @@ import Troubleshooting from './components/Troubleshoot';
 import WhatsappOTP from './components/Whatsapp';
 import FAQs from './components/Faq';
 import Contact from './components/Contact';
+import Price from './components/Price';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <WhatsappOTP />
       <FAQs />
       <Contact />
+      <Price />
     </>
   );
 }
