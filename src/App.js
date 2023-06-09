@@ -6,6 +6,8 @@ import EduTab from './components/EduTab';
 import Warranty from './components/Warranty';
 import Troubleshooting from './components/Troubleshoot';
 import WhatsappOTP from './components/Whatsapp';
+import FAQs from './components/Faq';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Warranty />
       <Troubleshooting />
       <WhatsappOTP />
+      <FAQs />
+      <Contact />
     </>
   );
 }
