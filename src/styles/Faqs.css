@@ -1,0 +1,13 @@
+* {
+  text-align: center;
+}
+
+.faq-container {
+  padding: 3rem;
+  margin-bottom: 2rem;
+}
+
+.faq-heading {
+  color: rgb(216, 153, 5);
+  padding-bottom: 1rem;
+}
