@@ -1,5 +1,12 @@
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 img {
   width: 45%;
+  margin: 1rem;
 }
 
 h1 {
@@ -27,11 +34,7 @@ h1 {
 }
 
 .carousel-container {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  position: relative; */
+  margin-top: 2rem;
 }
 
 .carousel-control-prev-icon {
