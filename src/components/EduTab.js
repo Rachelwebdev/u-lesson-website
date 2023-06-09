@@ -28,52 +28,60 @@ function EduTab() {
           className="carousel-container custom-carousel"
         >
           <Carousel.Item>
-            <img
-              className=""
-              src={edutab1}
-              alt="First slide"
-            />
-            <img
-              className=""
-              src={edutab2}
-              alt="First slide"
-            />
+            <div className="image-container">
+              <img
+                className=""
+                src={edutab1}
+                alt="First slide"
+              />
+              <img
+                className=""
+                src={edutab2}
+                alt="First slide"
+              />
+            </div>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className=""
-              src={edutab3}
-              alt="Second slide"
-            />
-            <img
-              className=""
-              src={edutab4}
-              alt="Second slide"
-            />
+            <div className="image-container">
+              <img
+                className=""
+                src={edutab3}
+                alt="Second slide"
+              />
+              <img
+                className=""
+                src={edutab4}
+                alt="Second slide"
+              />
+            </div>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className=""
-              src={edutab5}
-              alt="Third slide"
-            />
-            <img
-              className=""
-              src={edutab6}
-              alt="Third slide"
-            />
+            <div className="image-container">
+              <img
+                className=""
+                src={edutab5}
+                alt="Third slide"
+              />
+              <img
+                className=""
+                src={edutab6}
+                alt="Third slide"
+              />
+            </div>
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className=""
-              src={edutab7}
-              alt="Third slide"
-            />
-            <img
-              className=""
-              src={edutab8}
-              alt="Third slide"
-            />
+            <div className="image-container">
+              <img
+                className=""
+                src={edutab7}
+                alt="Third slide"
+              />
+              <img
+                className=""
+                src={edutab8}
+                alt="Third slide"
+              />
+            </div>
           </Carousel.Item>
         </Carousel>
 
