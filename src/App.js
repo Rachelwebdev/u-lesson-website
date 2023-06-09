@@ -10,6 +10,7 @@ import FAQs from './components/Faq';
 import Contact from './components/Contact';
 import Price from './components/Price';
 import ExpCent from './components/ExpCent';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <FAQs />
       <Contact />
       <Price />
+      <Footer />
     </>
   );
 }
