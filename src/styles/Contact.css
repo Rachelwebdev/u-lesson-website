@@ -1,0 +1,14 @@
+.contact-cont {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid rgb(216, 153, 5);
+}
+
+.contact-heading {
+  color: rgb(216, 153, 5);
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.row-cont {
+  margin-bottom: 3rem;
+}

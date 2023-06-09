@@ -1,5 +1,6 @@
 import Accordion from 'react-bootstrap/Accordion';
 import '../styles/Faqs.css';
+import '../styles/EduTab.css';
 
 function FAQs() {
   return (
