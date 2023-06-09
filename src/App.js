@@ -4,6 +4,7 @@ import './App.css';
 import PageNav from './components/Navbar';
 import EduTab from './components/EduTab';
 import Warranty from './components/Warranty';
+import Troubleshooting from './components/Troubleshoot';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <PageNav />
       <EduTab />
       <Warranty />
+      <Troubleshooting />
     </>
   );
 }
