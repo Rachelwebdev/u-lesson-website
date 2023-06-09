@@ -9,12 +9,14 @@ import WhatsappOTP from './components/Whatsapp';
 import FAQs from './components/Faq';
 import Contact from './components/Contact';
 import Price from './components/Price';
+import ExpCent from './components/ExpCent';
 
 function App() {
   return (
     <>
       <PageNav />
       <EduTab />
+      <ExpCent />
       <Warranty />
       <Troubleshooting />
       <WhatsappOTP />
